@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { CardComponent } from './card/card.component';
+import { CardHeaderComponent } from './card-header/card-header.component';
+import { CardFooterComponent } from './card-footer/card-footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardComponent,
+    CardHeaderComponent,
+    CardFooterComponent
   ],
   imports: [
     BrowserModule,
